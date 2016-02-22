@@ -1,0 +1,122 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Report</title>
+    <script type = "text/javascript"
+            src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script type = "text/javascript" language = "javascript" src="../javascript/parser.js"></script>
+    <!-- amCharts javascript sources -->
+    <script type="text/javascript" src="../javascript/amcharts.js"></script>
+    <script type="text/javascript" src="../javascript/pie.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/pricing-tables.css">
+    <!--[if lte IE 9]><link rel="stylesheet" href="../css/ie.css"><![endif]-->
+
+    <style>body{min-height: 500px;-mox-box-shadow:inset 0 0 0 5px #f2f2f2,inset 0 0 0 10px #90c0aa,inset 0 0 0 15px #f2f2f2;margin:0}.pricing-table{margin: 0 auto;top: 20px;position: relative;}</style>
+    <script type="text/javascript">
+		</script>
+
+    <style>
+        .amcharts-chart-div {
+            width: 1500px !important;
+            text-align: center !important;
+        }
+
+        svg path{
+            width: 1000px !important;
+            text-align: center !important;
+        }
+
+        #heading, h1{
+        text-align: center;
+        letter-spacing: 4px;
+        font-size: 34px;
+        font-family: times, Times New Roman, times-roman, georgia, serif;
+        }
+
+        #heading, p{
+        text-align: center;
+        letter-spacing: 4px;
+        font-size: 14px;
+        font-family: times, Times New Roman, times-roman, georgia, serif;
+        }
+
+        p{
+        text-align: center;
+        letter-spacing: 4px;
+        font-size: 14px;
+        font-family: times, Times New Roman, times-roman, georgia, serif;
+        }
+
+    </style>
+    <meta name="robots" content="noindex,follow" />
+
+</head>
+
+<body>
+<br>
+<br>
+<div id="heading">
+    <h1>Summry of the Suite Run</h1>
+    <hr width="100%">
+</div>
+<div id="heading"><p>Hover over the pie to see the numbers</p></div>
+<br>
+<div id = "stage" style = "">
+    <table class="pricing-table">
+        <thead>
+        <tr class="plan">
+            <td class="green">
+                <h2>Pass</h2>
+                <em>Happy Tests</em>
+            </td>
+            <td class="orange">
+                <h2>Error</h2>
+                <em>Mainly Exceptions</em>
+            </td>
+            <td class="red">
+                <h2>Failed</h2>
+                <em>Assertions went wrong</em>
+            </td>
+            <td class="yellow">
+                <h2>Skips</h2>
+                <em>Did not run</em>
+            </td>
+        </tr>
+        <tr class="price">
+            <td class="green">
+                <a href="pass.html">Check</a>
+            </td>
+            <td class="orange">
+                <a href="exception.html">Check</a>
+            </td>
+            <td class="red">
+                <a href="failure.html">Check</a>
+            </td>
+            <td class="yellow">
+                <a href="skip.html">Check</a>
+            </td>
+        </tr>
+        </thead>
+
+
+    </table>
+
+</div>
+<br>
+
+<br>
+<div id="module-link"><a href="modules.html" align="center">Check the Modules Report</a></div>
+<p style="height: 30px;"></p>
+<div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+<br>
+
+<footer>
+    <hr>
+    <p>&copy; Copyright 2016 | Jaydeep Chakrabarty | All Rights Reserved.</p>
+</footer>
+</body>
+
+</html>

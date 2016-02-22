@@ -1,0 +1,50 @@
+.pure-table {
+	margin:0px;padding:0px;
+	width:75%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #fcfcfc;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.pure-table table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}
+.pure-table tr:nth-child(odd){ background-color:#51504f; }
+.pure-table tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.pure-table tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.pure-table tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.pure-table tr:first-child td{
+		background:-o-linear-gradient(bottom, #050200 5%, #5e5b59 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #050200), color-stop(1, #5e5b59) );
+	background:-moz-linear-gradient( center top, #050200 5%, #5e5b59 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#050200", endColorstr="#5e5b59");	background: -o-linear-gradient(top,#050200,5e5b59);
+
+	background-color:#050200;
+	border:0px solid #fcfcfc;
+	text-align:left;
+	border-width:0px 0px 1px 1px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#ffffff;
+}
